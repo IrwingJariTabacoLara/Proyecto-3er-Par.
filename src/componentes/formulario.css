@@ -1,0 +1,22 @@
+label{
+    font-size: 18px;
+}
+input{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+textarea{
+    font-size: 15px;
+    border-radius: 5px;
+    border: 1px solid #ced4da;
+}
+
+.Formulario{
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #888888;
+    background-color: #c1c423;
+}

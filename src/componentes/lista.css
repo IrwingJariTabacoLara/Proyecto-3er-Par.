@@ -1,0 +1,65 @@
+ul {
+  list-style-type: none; /* Elimina los marcadores de lista */
+}
+
+li {
+  padding: 10px;
+  margin-bottom: 10px;
+  margin-right: 45px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  background-color: #f0ab51;
+}
+
+.btn-expanded {
+  background-color: #8701a8; /* Verde */
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-collapsed {
+  background-color: #4CAF50;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-delete {
+  background-color: #ca0505;
+  border: none;
+  color: white;
+  padding: 5px 15px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 23px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-delete:hover {
+  background-color: rgb(141, 6, 6);
+}
+
+.eventos {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  text-align: center;
+  background-color: #653bd8;
+}

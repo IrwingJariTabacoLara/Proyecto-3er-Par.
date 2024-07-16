@@ -1,0 +1,157 @@
+body {
+  background-color: #ffe4e1; /* Color de fondo rosa */
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f3e5f5; /* Color de fondo pastel */
+  border-radius: 12px;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  padding: 25px;
+  max-width: 450px;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Centrar elementos del formulario */
+}
+
+form div {
+  margin-bottom: 20px;
+  width: 100%;
+  text-align: center; /* Centrar texto dentro de los div */
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #ff007b; /* Color de texto pastel */
+}
+
+form input,
+form textarea,
+form button {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #d1c4e9; /* Color de borde pastel */
+  font-size: 16px;
+}
+
+form input,
+form textarea {
+  background-color: #e8eaf6; /* Color de fondo pastel */
+}
+
+button {
+  background-color: #81c784; /* Color de fondo pastel */
+  border: none;
+  color: white;
+  padding: 12px 18px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+}
+
+.vista-eventos {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  align-items: center;
+}
+
+.lista-eventos {
+  width: 90%;
+  margin-bottom: 20px;
+}
+
+.vista-calendario {
+  width: 90%;
+}
+
+ul {
+  list-style-type: none; /* Elimina los marcadores de lista */
+}
+
+li {
+  padding: 15px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  background-color: #fce4ec; /* Color de fondo pastel */
+}
+
+.btn-expanded, .btn-collapsed, .btn-delete {
+  border: none;
+  color: white;
+  padding: 8px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+
+.btn-expanded {
+  background-color: #64b5f6; /* Color de fondo pastel */
+}
+
+.btn-collapsed {
+  background-color: #ffb74d; /* Color de fondo pastel */
+}
+
+.btn-delete {
+  background-color: #e57373; /* Color de fondo pastel */
+}
+
+.btn-delete:hover {
+  background-color: #ef5350; /* Color de fondo pastel */
+}
+
+.eventos {
+  width: 100%;
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 5px 5px 5px #888888;
+  text-align: center;
+  background-color: #f8f9fa;
+}
+
+/* Estilo para el calendario */
+.rbc-calendar {
+  background-color: #fff8dc; /* Color de fondo distinto para el calendario */
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+}
+
+.rbc-toolbar {
+  background-color: #ffd700; /* Color de fondo para la barra de herramientas del calendario */
+  border-radius: 6px;
+  padding: 10px;
+}
+
+.rbc-event {
+  background-color: #ffa07a !important; /* Color de fondo para los eventos del calendario */
+  color: white;
+  border-radius: 4px;
+  padding: 2px 6px;
+}
